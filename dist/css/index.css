@@ -1,0 +1,27 @@
+@page {
+  size: A4; }
+
+.body-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas: "header header" "aside main";
+  height: 100vh;
+  width: 100vw;
+  margin: 0; }
+  .body-grid .header {
+    grid-area: header;
+    background-color: darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .body-grid .main {
+    grid-area: main;
+    background: #e3e3e3; }
+  .body-grid .aside {
+    grid-area: aside;
+    background-color: #3e3e3e; }
+
+h1 {
+  margin: 0; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3Njc3MvaW5kZXguc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFFBQVEsRUFBQTs7QUFHVjtFQUNFLGFBQWE7RUFDYiw4QkFBOEI7RUFDOUIsMkJBQTJCO0VBQzNCLGlEQUVjO0VBQ2QsYUFBYTtFQUNiLFlBQVk7RUFDWixTQUFTLEVBQUE7RUFUWDtJQVdJLGlCQUFpQjtJQUNqQiwwQkFBMEI7SUFDMUIsYUFBYTtJQUNiLG1CQUFtQjtJQUNuQix1QkFBdUIsRUFBQTtFQWYzQjtJQWtCSSxlQUFlO0lBQ2YsbUJBQW1CLEVBQUE7RUFuQnZCO0lBc0JJLGdCQUFnQjtJQUNoQix5QkFBeUIsRUFBQTs7QUFJN0I7RUFDRSxTQUFTLEVBQUEiLCJmaWxlIjoiaW5kZXguY3NzIn0= */
