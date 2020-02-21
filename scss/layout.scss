@@ -1,0 +1,26 @@
+.body-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas:
+    'header header'
+    'aside main';
+  .header {
+    grid-area: header;
+    background-color: $primary-color;
+    color: $theme-white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main {
+    grid-area: main;
+    background: $theme-white;
+    color: $theme-black;
+  }
+  .aside {
+    grid-area: aside;
+    background-color: $theme-black;
+    color: $theme-white;
+  }
+}

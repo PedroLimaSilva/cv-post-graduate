@@ -1,0 +1,21 @@
+// 1. Colors
+// ==========================================================================
+
+/* MASTER PALETTE */
+$color1: rgba(48, 48, 48, 1);
+$color2: rgba(0, 129, 183, 1);
+$color3: rgba(123, 40, 125, 1);
+$color4: rgba(56, 78, 119, 1);
+$color5: rgba(224, 251, 252, 1);
+
+$primary-color: $color4 !default;
+$primary-color-light: lighten($primary-color, 15%) !default;
+$primary-color-dark: darken($primary-color, 15%) !default;
+
+$secondary-color: $color3 !default;
+$success-color: color('green', 'base') !default;
+$error-color: color('red', 'base') !default;
+$link-color: color('light-blue', 'darken-1') !default;
+
+$theme-white: $color5;
+$theme-black: $color1;

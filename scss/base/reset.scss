@@ -1,0 +1,25 @@
+@page {
+  size: A4;
+}
+
+html {
+  font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Tomorrow, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}

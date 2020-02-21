@@ -1,34 +1,6 @@
-@page {
-  size: A4;
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway|Tomorrow&display=swap');
 
-.body-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 2fr;
-  grid-template-areas:
-    "header header"
-    "aside main";
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  .header{
-    grid-area: header;
-    background-color: darkcyan;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .main {
-    grid-area: main;
-    background: #e3e3e3;
-  }
-  .aside{
-    grid-area: aside;
-    background-color: #3e3e3e;
-  }
-}
+@import './base/index.scss';
+@import './components/index.scss';
 
-h1{
-  margin: 0;
-}
+@import './layout.scss';
