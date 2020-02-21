@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway|Tomorrow&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700|Tomorrow:400,700&display=swap");
 @page {
   size: A4; }
 
@@ -11,10 +11,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Tomorrow, 'Times New Roman', Times, serif; }
+  font-family: Tomorrow, 'Times New Roman', Times, serif;
+  margin: 0;
+  margin-bottom: 0.5em;
+  font-weight: 400; }
 
-h1 {
-  margin: 0; }
+p {
+  margin: 0;
+  margin-bottom: 0.5em; }
 
 body {
   height: 100vh;
@@ -22,6 +26,9 @@ body {
   margin: 0; }
 
 /* MASTER PALETTE */
+.uppercase {
+  text-transform: uppercase; }
+
 .container {
   padding: 1em 2.5em; }
 
@@ -36,7 +43,8 @@ body {
     color: #e0fbfc;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    flex-direction: column; }
   .body-grid .main {
     grid-area: main;
     background: #e0fbfc;
@@ -45,5 +53,8 @@ body {
     grid-area: aside;
     background-color: #303030;
     color: #e0fbfc; }
+
+.experience-item {
+  margin-bottom: 1.5em; }
 
 /*# sourceMappingURL=index.css.map */

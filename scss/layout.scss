@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
   .main {
     grid-area: main;
@@ -23,4 +24,8 @@
     background-color: $theme-black;
     color: $theme-white;
   }
+}
+
+.experience-item{
+  margin-bottom: 1.5em;
 }
