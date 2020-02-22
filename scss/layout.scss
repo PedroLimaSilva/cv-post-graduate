@@ -23,9 +23,17 @@
     grid-area: aside;
     background-color: $theme-black;
     color: $theme-white;
+    position: relative;
   }
 }
 
-.experience-item{
+.experience-item {
   margin-bottom: 1.5em;
+}
+
+.corner-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }

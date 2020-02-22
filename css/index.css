@@ -30,7 +30,33 @@ body {
   text-transform: uppercase; }
 
 .container {
-  padding: 1em 2.5em; }
+  padding: 2.5em 2em; }
+
+.corner {
+  display: block;
+  position: absolute;
+  transform-origin: top left;
+  transform: rotate(-45deg);
+  left: 30%;
+  bottom: -230px;
+  height: 150px;
+  width: 100%;
+  background-color: #303030;
+  box-shadow: 0 -3px 5px 2px rgba(0, 0, 0, 0.2); }
+  .corner::before {
+    display: block;
+    content: "";
+    height: 40px;
+    width: 100%;
+    background-color: #7b287d;
+    box-shadow: 0 -3px 5px 2px rgba(0, 0, 0, 0.2); }
+  .corner::after {
+    display: block;
+    content: "";
+    height: 40px;
+    width: 100%;
+    background-color: #0081b7;
+    box-shadow: 0 -3px 5px 2px rgba(0, 0, 0, 0.2); }
 
 .body-grid {
   display: grid;
@@ -52,9 +78,16 @@ body {
   .body-grid .aside {
     grid-area: aside;
     background-color: #303030;
-    color: #e0fbfc; }
+    color: #e0fbfc;
+    position: relative; }
 
 .experience-item {
   margin-bottom: 1.5em; }
+
+.corner-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%; }
 
 /*# sourceMappingURL=index.css.map */
