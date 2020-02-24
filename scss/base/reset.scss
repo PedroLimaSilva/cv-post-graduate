@@ -5,6 +5,13 @@
 html {
   font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -22,8 +29,10 @@ p {
   margin-bottom: 0.5em;
 }
 
-body {
-  height: 100vh;
-  width: 100vw;
+ul{
+  padding: 0;
   margin: 0;
+}
+li {
+  list-style: none;
 }

@@ -1,0 +1,17 @@
+.quote {
+  margin-bottom: 1.5em;
+  display: block;
+  padding-left: 1.5em;
+  position: relative;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    border-radius: 3px;
+    background-color: darkcyan;
+  }
+}
